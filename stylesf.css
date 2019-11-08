@@ -35,6 +35,7 @@ header {
 nav {
     margin: auto;
     height: auto;
+    text-align: center;
 }
 ul {
     list-style-type: none;
