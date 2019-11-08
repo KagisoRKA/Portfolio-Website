@@ -172,4 +172,16 @@ footer {
         display: inline-block;
         vertical-align: middle;
     }
+    footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    box-shadow: 0 -2px black,
+                inset 2px 0 black,
+                inset -2px 0 black;
+    width: 100%;
+    background-color:rgb(195, 234, 252);
+    color: rgb(252, 246, 246);
+    text-align: center;
+ }
 }
