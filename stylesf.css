@@ -1,0 +1,174 @@
+html {
+    height:100%;
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header {
+    background-color:rgba(23, 192, 204, 0.3);
+    border-radius:5px;
+    margin: auto;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+.profileImg {
+    float:left;
+    height:115x;
+    width:115px;
+    margin:10px 15px;
+    border-radius:230px;
+    border:2px solid #fff;
+    background-color:#ddd;
+}
+.headText {
+    font-variant:small-caps;
+    font-weight:bold;
+    font-size:23px;
+    color: #fff;
+    margin-bottom:0;
+}
+.cohort {
+    font-weight:bold;
+    color:rgb(105, 128, 126);
+}
+nav {
+    margin: auto;
+    height: auto;
+}
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+li {
+    display:inline;
+    margin-left:0;
+}
+a {
+    color:#fff;
+    text-decoration: none;
+    background-color:rgba(9, 81, 87, 0.3);
+    font-weight: bold;
+    font-size: 15px;
+    padding: 12px 14px;
+}
+a:hover {
+    text-decoration: none;
+    background-color: rgba(204, 217, 221, 0.295);
+    font-size: 15px;
+    padding: 14px 16px;
+}
+article {
+    width:70%;
+    line-height:450px;
+    margin:auto;
+    margin-top:20px;
+    height:100%;
+    text-align:center;
+}
+article h2 {
+    line-height: 1.5;
+    font-size:55px;
+    color: rgba(231, 244, 245, 0.966);
+    display: inline-block;
+    vertical-align: middle;
+    text-shadow: 4px 2px black;
+}
+.skills{
+    line-height:20px;
+    margin:auto;
+    margin-top:5px;
+    height:100%;
+    color:white;
+    text-align:center;
+}
+.about {
+    line-height:20px;
+    margin:auto;
+    margin-top:5px;
+    height:100%;
+    color:white;
+    text-align:center;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    box-shadow: 0 -2px black,
+                inset 2px 0 black,
+                inset -2px 0 black;
+    width: 100%;
+    background-color:rgb(195, 234, 252);
+    color: rgb(252, 246, 246);
+    text-align: center;
+ }
+ .contact img{
+     height:60px;
+     width: 60px;
+     text-decoration: none;
+ }
+ #Home{
+    color:#fff;
+    text-decoration: none;
+    background-color:rgb(55, 131, 245);
+    font-weight: bold;
+    font-size: 15px;
+    padding: 12px 10px;
+ }
+@media only screen and (max-width:600px){
+    header {
+        background-color:rgba(58, 239, 252, 0.3);
+        width: 100%;
+        border-radius:5px;
+    }
+    .headText {
+        font-variant:small-caps;
+        font-weight:bold;
+        font-size:15px;
+        color: #fff;
+        margin-bottom:0;
+    }
+    .profileImg {
+        float:left;
+        height:75px;
+        width:75px;
+        margin:10px 15px;
+        border-radius:150px;
+        border:2px solid #fff;
+        background-color:#ddd;
+    }
+    a {
+        text-decoration: none;
+        background-color:rgba(0, 189, 202, 0.966);
+        font-size: 15px;
+        padding: 10px 12px;
+    }
+    a:hover {
+        text-decoration: none;
+        background-color: rgba(204, 217, 221, 0.295);
+        font-size: 15px;
+        padding: 10px 12px;
+    }
+    nav {
+        width: 100%;
+        margin: auto;
+        height: auto;
+    }
+    article {
+        width:70%;
+        line-height:300px;
+        color: rgba(231, 244, 245, 0.966);
+        margin:auto;
+        margin-top:20px;
+        height:100%;
+        text-align:center;
+    }
+    article h2 {
+        line-height: 1.5;
+        font-size:25px;
+        color: rgba(231, 244, 245, 0.966);
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
