@@ -5,8 +5,11 @@ html {
     background-position: center;
     background-size: cover;
 }
+body {
+    margin-bottom: 60px;
+}
 header {
-    background-color:rgba(23, 192, 204, 0.3);
+    background-color:rgba(58, 239, 252, 0.3);
     border-radius:5px;
     margin: auto;
     margin-bottom: 20px;
@@ -30,7 +33,7 @@ header {
 }
 .cohort {
     font-weight:bold;
-    color:rgb(105, 128, 126);
+    color:rgb(62, 70, 69);
 }
 nav {
     margin: auto;
@@ -46,7 +49,7 @@ li {
     display:inline;
     margin-left:0;
 }
-a {
+li a {
     color:#fff;
     text-decoration: none;
     background-color:rgba(9, 81, 87, 0.3);
@@ -54,134 +57,225 @@ a {
     font-size: 15px;
     padding: 12px 14px;
 }
-a:hover {
+li a:hover {
     text-decoration: none;
     background-color: rgba(204, 217, 221, 0.295);
     font-size: 15px;
-    padding: 14px 16px;
+    padding: 12px 14px;
+}
+li a:active {
+   box-shadow: inset 1px 1px rgb(17, 16, 16),
+                inset -1px -1px rgb(17, 16, 16);
+}
+#welcome-p{
+    background-image: url("Bgimg.jpg");
+    background-size:cover;
 }
 article {
-    width:70%;
-    line-height:250px;
     margin:auto;
-    margin-top:20px;
+    margin-top:40px;
+    font-size: 17px;
     height:100%;
     text-align:center;
 }
 article h2 {
-    line-height: 1.5;
     font-size:55px;
+    width:100%;
     color: rgba(231, 244, 245, 0.966);
     display: inline-block;
     vertical-align: middle;
     text-shadow: 4px 2px black;
 }
+#welcome {
+    height: 50px;
+    width: 50px;
+}
+h3 {
+    color: rgb(58, 54, 54);
+}
 .skills{
-    line-height:20px;
+    line-height: normal;
     margin:auto;
-    margin-top:5px;
+    margin-top:40px;
     height:100%;
     color:white;
     text-align:center;
 }
 .about {
-    line-height:20px;
+    line-height: normal;
     margin:auto;
-    margin-top:5px;
+    margin-top:40px;
     height:100%;
     color:white;
     text-align:center;
+}
+.grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns:auto auto auto auto;
+    text-decoration: none;
+    padding: 7px;
+    background-color:transparent;
+}
+.grid div {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgba(38, 16, 236,0.3);
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 0;
+    border:1px solid rgb(255, 255, 255);
+}
+.grid div:hover {
+    background-color: rgba(114, 102, 216, 0.3);   
+}
+.grid div:active {
+    border:2px;
+}
+.plat-1 {
+    background-image:url("https://yt3.ggpht.com/-y2GQW2dcHkQ/AAAAAAAAAAI/AAAAAAAAAAA/3c2oH4kaP68/s900-c-k-no/photo.jpg");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: contain;
+}
+.plat-2 {
+    background-image:url("https://i.computer-bild.de/imgs/1/2/0/2/7/6/3/5/Icon-SoloLearn-48x48-d954821cf882d330.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: contain;
+}
+.plat-3 {
+    background-image:url("https://cdn.pixabay.com/photo/2015/07/13/07/33/icons-842861_640.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: contain;
+}
+.plat-4 {
+    background-image:url("https://secure.meetupstatic.com/photos/event/4/c/b/b/600_468259643.jpeg");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: contain;
+}
+.grid2 {
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    grid-gap: 5px;
+    background-color: rgba(41, 169, 228,0.5);
+}
+.grid2 div {
+    padding: 50px;
+}
+.cert-1 {
+    color:rgb(7, 3, 250);
+    font-size: 20px;
+    border: 2px dashed black;
+    background-image: url("Html_cert.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.cert-2 {
+    color:rgb(7, 3, 250);
+    font-size: 20px;
+    border: 2px dashed black;
+    background-image: url("CSS_cert.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.cert-3 {
+    color:rgb(7, 3, 250);
+    font-size: 20px;
+    border: 2px dashed black;
+    background-image: url("JS_cert.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.cert-4 {
+    color:rgb(7, 3, 250);
+    font-size: 20px;
+    border: 2px dashed black;
+    background-image: url("Java-cert.jpg");
+    background-size: cover;
+    background-position: center;
 }
 footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    box-shadow: 0 -2px black,
-                inset 2px 0 black,
-                inset -2px 0 black;
     width: 100%;
-    background-color:rgb(195, 234, 252);
-    color: rgb(252, 246, 246);
+    color: rgb(253, 253, 253);
+    background-color:rgb(21, 21, 78);
     text-align: center;
+    border-top: 2px solid white;
  }
  .contact img{
-     height:60px;
-     width: 60px;
+     height:40px;
+     width: 40px;
      text-decoration: none;
+ }
+ .contact img:hover{
+     background-color: rgb(250, 250, 250);
+     border-radius: 6px;
  }
  #Home{
     color:#fff;
     text-decoration: none;
-    background-color:rgb(55, 131, 245);
+    background-color:rgb(11, 55, 121);
     font-weight: bold;
     font-size: 15px;
     padding: 12px 10px;
  }
-@media only screen and (max-width:600px){
-    header {
-        background-color:rgba(58, 239, 252, 0.3);
-        width: 100%;
-        border-radius:5px;
-    }
+ #Home:hover {
+     background-color:rgb(27, 85, 172);
+ }
+@media only screen and (max-width:700px){
     .headText {
-        font-variant:small-caps;
-        font-weight:bold;
         font-size:15px;
-        color: #fff;
-        margin-bottom:0;
     }
     .profileImg {
-        float:left;
         height:75px;
         width:75px;
-        margin:10px 15px;
         border-radius:150px;
-        border:2px solid #fff;
-        background-color:#ddd;
     }
-    a {
-        text-decoration: none;
+    nav {
+        width: 100%;
+    }
+    li a {
         background-color:rgba(0, 189, 202, 0.966);
-        font-size: 15px;
         padding: 10px 12px;
     }
-    a:hover {
-        text-decoration: none;
+    li a:hover {
         background-color: rgba(204, 217, 221, 0.295);
         font-size: 15px;
         padding: 10px 12px;
     }
-    nav {
-        width: 100%;
-        margin: auto;
-        height: auto;
-    }
     article {
-        width:70%;
-        line-height:300px;
+        width:100%;
         color: rgba(231, 244, 245, 0.966);
-        margin:auto;
-        margin-top:20px;
-        height:100%;
-        text-align:center;
+        margin-top:40px;
     }
     article h2 {
-        line-height: 1.5;
         font-size:25px;
         color: rgba(231, 244, 245, 0.966);
         display: inline-block;
         vertical-align: middle;
     }
-    footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    box-shadow: 0 -2px black,
-                inset 2px 0 black,
-                inset -2px 0 black;
-    width: 100%;
-    background-color:rgb(195, 234, 252);
-    color: rgb(252, 246, 246);
-    text-align: center;
- }
+    .grid {
+        grid-template-columns:auto auto;
+    }
+    .grid div {
+        background-color: rgba(38, 16, 236,0.3);
+        font-size: 15px;
+        border:1px solid rgb(255, 255, 255);
+    }
+    .grid2 {
+        display:grid;
+        grid-template-columns: auto auto;
+        padding: 5px;
+        grid-gap: 5px;
+        background-color: rgba(41, 169, 228,0.5);
+    }
+    .grid2 div {
+        padding: 5px;
+    }
 }
