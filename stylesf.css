@@ -242,17 +242,17 @@ footer {
     }
     li a {
         background-color:rgba(0, 189, 202, 0.966);
-        padding: 10px 12px;
-        font-size: 13px;
+        padding: 10px 10px;
+        font-size: 12.5px;
     }
     li a:hover {
         background-color: rgba(204, 217, 221, 0.295);
-        font-size: 13px;
-        padding: 10px 12px;
+        font-size: 12.5px;
+        padding: 10px 10px;
     }
     #Home{
-        font-size: 12px;
-        padding: 10px 12px;
+        font-size: 12.5px;
+        padding: 10px 10px;
      }
     article {
         width:100%;
@@ -282,5 +282,6 @@ footer {
     }
     .grid2 div {
         padding: 5px;
+        font-size: 16px;
     }
 }
