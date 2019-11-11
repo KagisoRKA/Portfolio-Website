@@ -243,12 +243,17 @@ footer {
     li a {
         background-color:rgba(0, 189, 202, 0.966);
         padding: 10px 12px;
+        font-size: 13px;
     }
     li a:hover {
         background-color: rgba(204, 217, 221, 0.295);
-        font-size: 15px;
+        font-size: 13px;
         padding: 10px 12px;
     }
+    #Home{
+        font-size: 12px;
+        padding: 10px 12px;
+     }
     article {
         width:100%;
         color: rgba(231, 244, 245, 0.966);
