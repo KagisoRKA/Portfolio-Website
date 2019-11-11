@@ -114,16 +114,15 @@ h3 {
     grid-gap: 10px;
     grid-template-columns:auto auto auto auto;
     text-decoration: none;
-    padding: 7px;
     background-color:transparent;
 }
 .grid div {
     color:rgb(255, 255, 255);
     text-decoration: none;
     background-color: rgba(38, 16, 236,0.3);
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
-    padding: 10px 0;
+    padding: 12px 14px;
     border:1px solid rgb(255, 255, 255);
 }
 .grid div:hover {
@@ -243,15 +242,15 @@ footer {
     li a {
         background-color:rgba(0, 189, 202, 0.966);
         padding: 10px 10px;
-        font-size: 12px;
+        font-size: 12.5px;
     }
     li a:hover {
         background-color: rgba(204, 217, 221, 0.295);
-        font-size: 12px;
+        font-size: 12.5px;
         padding: 10px 10px;
     }
     #Home{
-        font-size: 12px;
+        font-size: 12.5px;
         padding: 10px 10px;
      }
     article {
@@ -271,6 +270,7 @@ footer {
     .grid div {
         background-color: rgba(38, 16, 236,0.3);
         font-size: 15px;
+        padding:7px;
         border:1px solid rgb(255, 255, 255);
     }
     .grid2 {
