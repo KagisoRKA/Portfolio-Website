@@ -1,6 +1,6 @@
 html {
     height:100%;
-    background-image: url("bg1.jpg");
+    background-image: url("images/bg1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -68,7 +68,7 @@ li a:active {
                 inset -1px -1px rgb(17, 16, 16);
 }
 #welcome-p{
-    background-image: url("Bgimg.jpg");
+    background-image: url("images/Bgimg.jpg");
     background-size:cover;
 }
 article {
@@ -76,6 +76,7 @@ article {
     margin-top:40px;
     font-size: 17px;
     height:100%;
+    color: rgba(231, 244, 245, 0.966);
     text-align:center;
 }
 article h2 {
@@ -98,7 +99,6 @@ h3 {
     margin:auto;
     margin-top:40px;
     height:100%;
-    color:white;
     text-align:center;
 }
 .about {
@@ -106,7 +106,6 @@ h3 {
     margin:auto;
     margin-top:40px;
     height:100%;
-    color:white;
     text-align:center;
 }
 .grid {
@@ -164,38 +163,31 @@ h3 {
 }
 .grid2 div {
     padding: 50px;
+    color:rgb(7, 3, 250);
+    font-size: 20px;
+    border: 2px dashed black;
+    background-size: cover;
+    background-position: center;
 }
 .cert-1 {
-    color:rgb(7, 3, 250);
-    font-size: 20px;
-    border: 2px dashed black;
-    background-image: url("Html_cert.jpg");
-    background-size: cover;
-    background-position: center;
+    background-image: url("images/Html_cert.jpg");
 }
 .cert-2 {
-    color:rgb(7, 3, 250);
-    font-size: 20px;
-    border: 2px dashed black;
-    background-image: url("CSS_cert.jpg");
-    background-size: cover;
-    background-position: center;
+    background-image: url("images/CSS_cert.jpg");
 }
 .cert-3 {
-    color:rgb(7, 3, 250);
-    font-size: 20px;
-    border: 2px dashed black;
-    background-image: url("JS_cert.jpg");
-    background-size: cover;
-    background-position: center;
+    background-image: url("images/JS_cert.jpg");
 }
 .cert-4 {
-    color:rgb(7, 3, 250);
-    font-size: 20px;
-    border: 2px dashed black;
-    background-image: url("Java-cert.jpg");
-    background-size: cover;
-    background-position: center;
+    background-image: url("images/Java-cert.jpg");
+}
+.projects {
+    line-height: 5px;
+}
+.projects p a {
+    color: black;
+    font-weight: bold;
+    text-decoration: dotted;
 }
 footer {
     position: fixed;
